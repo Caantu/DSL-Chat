@@ -1,0 +1,59 @@
+Step 0
+Speak $name您好，欢迎咨询！请问有什么问题我可以帮您解答？
+Listen
+Branch 营业时间 1
+Branch 地址 2
+Branch 服务 3
+Branch 电话号码 4
+Branch 不需要 6
+Default 5
+
+Step 1
+Speak 我们的营业时间是每天早上9点到晚上6点。请问您是否还有其他问题需要了解？
+Listen
+Branch 地址 2
+Branch 服务 3
+Branch 电话号码 4
+Branch 否 6
+Default 5
+
+Step 2
+Speak 我们位于北京市XX路XX号，欢迎您随时光临！请问是否需要了解我们的产品或服务信息？
+Listen
+Branch 营业时间 1
+Branch 服务 3
+Branch 电话号码 4
+Branch 否 6
+Default 5
+
+Step 3
+Speak 我们提供多种产品和服务，包括XX、XX、XX等。如果您有具体需求，欢迎随时询问。您是否需要了解更多信息？
+Listen
+Branch 营业时间 1
+Branch 地址 2
+Branch 电话号码 4
+Branch 否 6
+Default 5
+
+Step 4
+Speak 我们的电话号码是029-8888-8888，欢迎您致电。您是否需要了解更多信息？
+Listen
+Branch 营业时间 1
+Branch 地址 2
+Branch 服务 3
+Branch 否 6
+Default 5
+
+Step 5
+Speak 对不起，我没能理解您的问题。能否请您再详细描述一下，或者选择以下选项？
+Listen
+Branch 营业时间 1
+Branch 地址 2
+Branch 服务 3
+Branch 电话号码 4
+Branch 没事了 6
+Default 5
+
+Step 6
+Speak 感谢您的咨询！如果您以后有任何问题，随时欢迎联系我们。祝您生活愉快，期待再次为您服务！
+Exit

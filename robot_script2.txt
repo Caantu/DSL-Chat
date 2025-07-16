@@ -1,0 +1,58 @@
+Step 0
+Speak $name 您好，欢迎光临，请问需要点什么餐？
+Listen
+Branch 意面 1
+Branch 披萨 2
+Branch 饮料 3
+Branch 不用了 7
+Default 4
+
+Step 1
+Speak 我们有多款意面，请问您想要哪一种？
+Listen
+Branch 奶油意面 5
+Branch 番茄意面 5
+Branch 素食意面 5
+Branch 返回 0
+Default 1
+
+Step 2
+Speak 我们的披萨有各种口味，您喜欢哪种？
+Listen
+Branch 海鲜披萨 5
+Branch 蔬菜披萨 5
+Branch 巧克力披萨 5
+Branch 返回 0
+Default 2
+
+Step 3
+Speak 我们有多种饮料，您想选择哪一款？
+Listen
+Branch 可乐 5
+Branch 果汁 5
+Branch 水 5
+Branch 返回 0
+Default 3
+
+Step 4
+Speak 抱歉，我没有理解您的意思。请问您需要什么餐品？
+Listen
+Branch 意面 1
+Branch 披萨 2
+Branch 饮料 3
+Branch 不用了 7
+Default 4
+
+Step 5
+Speak 您是否还需要订其他餐品？
+Branch 是 0
+Branch 否 6
+Default 5
+
+Step 6
+Speak 感谢您的订餐，马上为您准备
+Exit
+
+Step 7
+Speak 好的，需要再次订餐随时告诉我
+Exit

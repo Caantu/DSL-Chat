@@ -1,0 +1,33 @@
+Step 0
+Speak $name您好，请问有什么可以帮您?
+Listen
+Branch 投诉 2
+Branch 账单 3
+Default 4
+
+Step 1
+Speak 您的意见是我们改进工作的动力，请问您还有什么补充?
+Listen
+Branch 没有 5
+Branch 有 2
+Default 4
+
+Step 2
+Speak 请详细描述您的问题，我们会尽快处理
+Listen
+Default 1
+
+Step 3
+Speak 您的本月账单是$amount元，感谢您的咨询，再见
+Exit
+
+Step 4
+Speak 抱歉，我没有理解您的意思。请问您需要咨询什么服务？
+Listen
+Branch 投诉 1
+Branch 账单 3
+Default 4
+
+Step 5
+Speak 感谢您的咨询，再见
+Exit
